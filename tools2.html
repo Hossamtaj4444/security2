@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="tools2.css">
+</head>
+<body>
+    <header>
+        <section class="home" id="home">
+             <nav>
+                <h1>SECURITY <span class="highlight">BATTLE</span></h1>
+                   <ul id="actions">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="call.html">Call Me</a></li>
+                     <li><a href="religious.html">Forum</a></li>
+                    </button></a></li>
+                 </ul>
+                 <button id="menu">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                 </button>
+               </nav>
+             </div>
+             </nav>
+           </header>       
+    <main>
+        <section class="additional-content" id="additional-content">
+            <h2>المحتوى الإضافي</h2>
+
+            <div class="content-category">
+                <h3>المقالات</h3>
+                <article>
+                    <img src="img/plo8.jpg" alt="مقالة: أساسيات الأمن السيبراني" class="loading" data-modal="modal1">
+                    <h4>أساسيات الأمن السيبراني</h4>
+                    <p>تعرف على أهم أساسيات الأمن السيبراني وكيفية حماية بياناتك.</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.0</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button"><a href="religious.html">زور المنتدي</a></button>
+                    </div>
+                    <button class="button read-more" data-content="content1">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content1" style="display: none;">
+                        <h5>مقدمة في الأمن السيبراني</h5>
+                        <p>الأمن السيبراني هو حماية الأنظمة والشبكات والبرامج من الهجمات الرقمية...</p>
+                        <p>الاستراتيجيات الأساسية تشمل:</p>
+                        <ul>
+                            <li>تقييم المخاطر: تحديد وتقييم التهديدات المحتملة.</li>
+                            <li>تشفير البيانات: حماية المعلومات الحساسة من الوصول غير المصرح به.</li>
+                            <li>التدريب على الوعي الأمني: تثقيف الموظفين حول كيفية التعرف على التهديدات.</li>
+                        </ul>
+                    </div>
+                </article>
+                <!-- إضافة المزيد من المقالات بنفس النمط -->
+            </div>
+
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo9.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Crips</h4>
+                    <p><p>نظرة عامة:  
+                        Crips هو أداة متعددة الأغراض تستخدم لجمع المعلومات (Information Gathering) حول الشبكات والخوادم. تساعد في تحديد البيانات الحساسة والمعلومات الخاصة بالـ DNS، IP، وغيرها.</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content2">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5><p>Crips</p>
+
+        
+                            
+                            <p>وظائف ومميزات:  
+                            - كشف بيانات DNS.  
+                            - الحصول على معلومات عن عنوان IP.  
+                            - أدوات لتحديد موقع الـ IP والقيام بعمليات تعقب.</p>
+                            
+                            <p>كيف يعمل:  
+                            Crips تقوم بجمع البيانات العامة من الإنترنت حول الأهداف المراد تحليلها، مثل عنوان الـ IP، معلومات WHOIS، ومعلومات الـ DNS، وذلك باستخدام بروتوكولات شبكة الإنترنت.</p>
+                            
+                            <p>خطوات التحميل والتثبيت:  
+                               - [تحميل Crips]<a href="//github.com/Manisso/Crips">لتنزيلها وتشغيلها<a>  
+                               </a>
+                            <p>
+                                 git clone https://github.com/Manisso/Crips  
+                                 <p>cd Crips</p>  
+                                 python3 Crips.py
+                                 
+                            </p>
+                            
+                            <p>كيفية الاستخدام:  
+                            - لاستخدام Crips للحصول على معلومات الـ DNS حول موقع معين:  
+                              
+                               python3 Crips.py -dns example.com
+                               
+                            </p>
+                            
+                            <p>أمثلة حقيقية:  
+                            - تم استخدام Crips في استقصاء معلومات الخوادم والـ DNS في حالات متعددة، مثل تحليل بيئة الهدف قبل البدء في مرحلة الفحص النشط.</p>
+                            </h5>
+                        <p></p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo3.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content3">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo3.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content4">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo3.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content5">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo2.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content6">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo2.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content7">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo2.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content8">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo5.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content9">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo5.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content10">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo5.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content11">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo10.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content12">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo10.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content13">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo10.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content14">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo11.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content15">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo11.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content16">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo11.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content217">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo7.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content18">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo7.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content19">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo7.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content20">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo12.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content21">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo12.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content22">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo12.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content23">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo13.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content24">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo13.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content25">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="content-category">
+                <h3>أدوات الأمن السيبراني</h3>
+                <article>
+                    <img src="img/plo13.jpg" alt="أداة: Burp Suite" class="loading">
+                    <h4>Burp Suite</h4>
+                    <p>Burp Suite هو أداة متكاملة لاختبار أمان تطبيقات الويب...</p>
+                    <div class="rating">★★★★☆ <span class="star-rating">4.5</span></div>
+                    <div class="social-buttons">
+                        <button class="share-button">مشاركة</button>
+                        <button class="comment-button">تعليق</button>
+                    </div>
+                    <button class="button read-more" data-content="content26">اقرأ المزيد</button>
+                    <div class="hidden-content" id="content2" style="display: none;">
+                        <h5>تفاصيل Burp Suite</h5>
+                        <p>تتضمن ميزات Burp Suite:</p>
+                        <ul>
+                            <li>Proxy: للتحكم في حركة المرور بين المتصفح والتطبيق.</li>
+                            <li>Scanner: للبحث عن ثغرات الأمان تلقائيًا.</li>
+                            <li>Intruder: لتنفيذ هجمات القوة الغاشمة.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <div class="comment-section" style="display: none;">
+            <h3>تعليقك</h3>
+            <textarea id="comment-input" rows="4" placeholder="اكتب تعليقك هنا..."></textarea>
+            <button id="submit-comment" class="button">إرسال التعليق</button>
+            <div id="comments-list"></div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024</p>
+    </footer>
+
+    <script src="tools2.js"></script>
+</body>
+</html>
