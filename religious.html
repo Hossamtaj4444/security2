@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة دينية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="religious.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <div class="header-content">
+            <h1>En Idea</h1>
+                </div>
+                <button id="toggle-dark-mode">
+                    <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="5" fill="yellow" id="sun" style="display:none;"/>
+                        <path d="M12 2c-.55 0-1 .45-1 1v1.07C6.9 4.41 2 9.27 2 15c0 5.52 4.48 10 10 10s10-4.48 10-10-4.48-10-10-10zm0 18c-4.41 0-8-3.59-8-8 0-4.41 3.59-8 8-8 4.41 0 8 3.59 8 8 0 4.41-3.59 8-8 8zm-1-12h2v6h-2zm0 8h2v2h-2z" id="moon" fill="gray"/>
+                    </svg>
+                </button>
+                <div class="header-icons">
+                    <div class="icon-wrapper">
+                        <a href="notifications.html" style="text-decoration: none; color: inherit;">
+                            <i class="fas fa-bell"></i>
+                            <div class="notification-count"></div>
+                        </a>
+                    </div>
+                    <!-- إضافة وسم <a> بطريقة بسيطة -->
+                    <a href="profil.html" style="text-decoration: none; color: inherit;">
+                        <i class="fas fa-user-circle" id="accountIcon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+    <section class="post-section">
+        <div class="post">
+            <div class="post-header">
+                <div class="profile-pic">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                <div class="post-info">
+                    <h2>Hossam</h2>
+                    <button class="follow-btn">متابعة</button>
+                    <i class="fas fa-ellipsis-h" id="postOptionsBtn"></i>
+                </div>
+            </div>
+
+            <div class="post-content">
+                <p>اللهم اجعلني من أعظم خلقك نصيباً في كل خير تقسمه، وفي كل نور تنشره، وفي كل رزق تبسطه، وفي كل ضر تكشفه، وفي كل بلاء ترفعه، وفي كل دعاء تقبله.</p>
+            </div>
+            <div class="post-actions">
+                <i class="far fa-share-square"></i>
+                <i class="far fa-bookmark" id="bookmark"></i>
+                <i class="far fa-comment"></i> 
+                <i class="far fa-thumbs-up" id="likeBtn"></i>
+                <span id="likeCount">0</span> 
+            </div>
+        </div>
+    </section>
+    <!-- زر القلم لإظهار نافذة كتابة المنشور -->
+    <section class="upload-section">
+        <button id="uploadButton" class="floating-button">
+            <i class="fas fa-pencil-alt"></i>
+        </button>
+    </section>
+    <!-- نافذة كتابة المنشور الجديدة -->
+    <div id="postModal" class="post-modal">
+        <div class="post-modal-content">
+            <div class="post-header">
+                <h2>Hossam</h2>
+            </div>
+            <textarea class="post-textarea" id="postContent" placeholder="شارك أفكارك وخبراتك..."></textarea>
+            <div class="post-footer">
+                <div class="icon-bar">
+                    <i class="fas fa-hashtag" id="hashtagIcon"></i>
+                    <i class="fas fa-camera" id="photoIcon"></i>
+                    <i class="fas fa-smile" id="emojiIcon"></i>
+                </div>
+                <button id="postButton">
+                    <i class="fas fa-paper-plane"></i> مشاركة
+                </button>
+                <button id="cancelButton">إلغاء</button>
+            </div>
+        </main>
+        </div>
+    </div>
+    <script src="religious.js"></script>
+</body>
+</html>
