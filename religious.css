@@ -1,0 +1,295 @@
+/* عام */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* الهيدر الثابت */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #5337f4; 
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    padding-inline-end: 40px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+html[lang="ar"] body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.icon-wrapper {
+    position: relative;
+}
+
+.post-section {
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.post {
+    background-color: #262626;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-info h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.follow-btn {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background-color: darkgreen;
+}
+
+.post-content p {
+    margin: 5px 0;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.post-actions i {
+    cursor: pointer;
+}
+
+.post-actions i:hover {
+    color: #00b3ff;
+}
+
+#likeCount {
+    margin-right: 5px;
+    color: #00b3ff;
+}
+
+/* زر القلم */
+.floating-button {
+    background-color: #5337f4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.floating-button:hover {
+    background-color: darkgreen;
+}
+
+/* نافذة كتابة المنشور */
+.post-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
+
+.post-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 600px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header h2 {
+    font-size: 18px;
+}
+
+.post-textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.post-textarea::placeholder {
+    color: #888;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-footer button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-footer button:hover {
+    background-color: darkgreen;
+}
+
+.icon-bar {
+    display: flex;
+    gap: 15px;
+    font-size: 24px;
+    color: #888;
+}
+
+.icon-bar i {
+    cursor: pointer;
+}
+
+.icon-bar i.active {
+    color: #00b3ff;
+}
+
+/* الوضع النهاري (الافتراضي) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* الوضع الليلي */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+#toggle-dark-mode {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5337f4; /* خلفية الزر بالكامل */
+    color: white; /* لون النص الافتراضي */
+    border: none;
+    margin-top: 15px;
+}
+
+/* لتعديل خلفية النص نفسه داخل الزر */
+#toggle-dark-mode #toggle-text {
+    background-color: #333; /* لون الخلفية للنص نفسه */
+    color: white; /* لون النص */
+    font-size: 14px; /* حجم الخط */
+    padding: 5px; /* المساحة الداخلية حول النص */
+    border-radius: 5px; /* تزويد النص بزوايا مدورة (اختياري) */
+}
+
+
+@media (max-width: 768px) {
+    .post-modal-content {
+        width: 95%;
+    }
+
+    .post-header h2 {
+        font-size: 16px;
+    }
+
+    .post-textarea {
+        font-size: 14px;
+    }
+
+    .icon-bar i {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-modal-content {
+        width: 100%;
+    }
+
+    .post-header h2 {
+        font-size: 14px;
+    }
+
+    .post-textarea {
+        font-size: 12px;
+    }
+
+    .icon-bar i {
+        font-size: 18px;
+    }
+}

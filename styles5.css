@@ -1,0 +1,204 @@
+body {
+    background-color: #0d1b2a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #1b263b;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #00d9ff;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #0d1b2a;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #00d9ff;
+}
+
+.hero h3 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.hero p {
+    margin: 20px 0;
+    color: #aaa;
+}
+
+.hero-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-buttons .btn.primary {
+    background-color: #00d9ff;
+    color: #000;
+}
+
+.hero-buttons .btn.secondary {
+    background-color: transparent;
+    border: 2px solid #00d9ff;
+    color: #00d9ff;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.about-me {
+    padding: 50px;
+    background-color: #1b263b;
+    text-align: center;
+}
+
+.about-me h2 {
+    color: #00d9ff;
+    margin-bottom: 20px;
+}
+
+.about-me img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.journey, .skills, .contact {
+    padding: 50px;
+    background-color: #1e2a3a;
+}
+
+.journey h2, .skills h2, .contact h2 {
+    color: #00d9ff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.journey-content, .skills-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.journey-content div, .skills-content div {
+    background-color: #243b53;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.skills-bar {
+    background-color: #0d1b2a;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.skills-bar span {
+    display: block;
+    background-color: #00d
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.highlight {
+    color: #00bcd4;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    flex: 1;
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.skill img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 14px;
+    margin: 0;
+}

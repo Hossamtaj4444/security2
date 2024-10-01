@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .notification-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .notification-card:hover {
+            transform: scale(1.02);
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #6c5ce7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            margin-right: 15px;
+        }
+        .notification-content {
+            flex-grow: 1;
+        }
+        .notification-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 5px 0;
+        }
+        .notification-time {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        .notification-close {
+            color: #e74c3c;
+            cursor: pointer;
+        }
+        .notification-close:hover {
+            color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="notification-card">
+        <div class="icon">🔔</div>
+        <div class="notification-content">
+            <div class="notification-title">اشعار جديد</div>
+            <div class="notification-time">قبل 5 دقائق</div>
+        </div>
+        <div class="notification-close">x</div>
+    </div>
+
+    <div class="notification-card">
+        <div class="icon">📧</div>
+        <div class="notification-content">
+            <div class="notification-title">رسالة جديدة</div>
+            <div class="notification-time">قبل ساعتين</div>
+        </div>
+        <div class="notification-close">x</div>
+    </div>
+
+    <div class="notification-card">
+        <div class="icon">⚠️</div>
+        <div class="notification-content">
+            <div class="notification-title">تنبيه مهم</div>
+            <div class="notification-time">قبل يوم واحد</div>
+        </div>
+        <div class="notification-close">x</div>
+    </div>
+</div>
+
+</body>
+</html>

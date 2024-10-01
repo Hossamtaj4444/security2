@@ -1,0 +1,375 @@
+/* تصميم أساسي */
+.tool-title {
+  color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+/* تصميم الهيدر الثابت */
+header {
+  background-color: #3498db;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 24px;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* تصميم قائمة الأدوات */
+.tool-list {
+  max-width: 600px;
+  margin: 80px auto 0; /* تم تعديل المسافة العلوية بسبب الهيدر الثابت */
+}
+
+.tool-title {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateX(10deg);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tool-title:hover {
+  background-color: #2980b9;
+  transform: perspective(1000px) rotateX(0deg);
+}
+
+.tool-description {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #ecf0f1;
+  padding: 0 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+  position: relative;
+}
+
+.tool-description.show {
+  max-height: 200px; /* قم بتعديل هذا الرقم بناءً على حجم المحتوى */
+  padding: 20px 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.icon-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+/* تصميم يتماشى مع جميع الشاشات */
+@media (max-width: 768px) {
+  .tool-list {
+      margin: 100px 20px 0;
+  }
+  header h1 {
+      font-size: 18px;
+  }
+  .icon {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 16px;
+  }
+  .icon {
+      font-size: 18px;
+  }
+  .icon-img {
+      width: 40px;
+      height: 40px;
+  }
+}
+
+/* تصميم Nmap */
+.nmap {
+  background-color: #2ecc71;
+}
+
+.nmap:hover {
+  background-color: #2ecc71;
+}
+
+/* تصميم Whois */
+.whois {
+  background-color: #2ecc71;
+}
+
+/* تصميم Hping 3 */
+.hping {
+  background-color: #2ecc71;
+}
+
+/* تصميم Maltego */
+.maltego {
+  background-color:#2ecc71;
+}
+
+/* تصميم Setoolkit */
+.setoolkit {
+  background-color: #2ecc71;
+}
+
+/* تصميم Host to IP */
+.host-to-ip {
+  background-color: #2ecc71;
+}
+
+/* تصميم WPScan */
+.wpscan {
+  background-color: #2ecc71;
+}
+
+/* تصميم CMS Scanner */
+.cms-scanner {
+  background-color: #2ecc71;
+}
+
+/* تصميم XSStrike */
+.xsstrike {
+  background-color: #2ecc71;
+}
+
+/* تصميم Google Dorks */
+.google-dorks {
+  background-color: #2ecc71;
+}
+
+/* تصميم Scan A Server’s Users */
+.scan-users {
+  background-color: #2ecc71;
+}
+
+/* تصميم Crips */
+.crips {
+  background-color: #2ecc71;
+}
+
+/* تصميم Phone-Num-Info */
+.phone-info {
+  background-color: #2ecc71;
+}
+
+/* تصميم Scanning Tools */
+.scanning-tools {
+  background-color: #e74c3c;
+}
+
+/* تصميم Wireshark */
+.wireshark {
+  background-color:#e74c3c;
+}
+
+/* تصميم Nessus */
+.nessus {
+  background-color: #e74c3c;
+}
+
+/* تصميم WordPress Exploit Scanner */
+.wp-exploit {
+  background-color:#e74c3c;
+}
+
+/* تصميم WordPress Plugins Scanner */
+.wp-plugins {
+  background-color: #e74c3c;
+}
+
+/* تصميم Gravity Form Scanner */
+.gravity-form {
+  background-color: #e74c3c;
+}
+
+/* تصميم Metasploit */
+.metasploit {
+  background-color:#3498db;
+}
+
+/* تصميم Aircrack-ng */
+.aircrack {
+  background-color: #3498db;
+}
+
+/* تصميم Burp Suite */
+.burp-suite {
+  background-color: #3498db;
+}
+
+/* تصميم John the Ripper */
+.john-ripper {
+  background-color: #3498db;
+}
+
+/* تصميم SQLmap */
+.sqlmap {
+  background-color: #3498db;
+}
+
+/* تصميم Reaver */
+.reaver {
+  background-color: #3498db;
+}
+
+/* تصميم Pixiewps */
+.pixiewps {
+  background-color:#3498db;
+}
+
+/* تصميم Bluetooth Honeypot */
+.bluetooth {
+  background-color:#3498db;
+}
+
+/* تصميم Drupal Hacking */
+.drupal {
+  background-color: #3498db;
+}
+
+/* تصميم Inurlbr */
+.inurlbr {
+  background-color: #3498db;
+}
+
+/* تصميم File Upload Checker */
+.file-checker {
+  background-color: #3498db;
+}
+
+/* تصميم Shell and Directory Finder */
+.shell-finder {
+  background-color: #3498db;
+}
+
+/* تصميم Password Attacks Tools */
+.password-tools {
+  background-color:  #8e44ad;
+}
+
+/* تصميم Cupp */
+.cupp {
+  background-color:  #8e44ad
+}
+
+/* تصميم Ncrack */
+.ncrack {
+  background-color:  #8e44ad;
+}
+
+/* تصميم Sniffing & Spoofing Tools */
+.sniffing-tools {
+  background-color: #8e44ad;
+}
+
+/* تصميم SSLtrip */
+.ssltrip {
+  background-color: #2ecc71;
+}
+
+/* تصميم Pypisher */
+.pypisher {
+  background-color: #3498db;
+}
+
+/* تصميم SMTP Mailer */
+.smtp-mailer {
+  background-color: #f39c12;
+}
+
+/* تصميم Wireless Tools */
+.wireless-tools {
+  background-color: #e74c3c;
+}
+
+/* تصميم Web Exploitation Tools */
+.web-exploitation {
+  background-color: #8e44ad;
+}
+
+/* تصميم WordPress & Joomla Scanner */
+.wp-joomla {
+  background-color: #2ecc71;
+}
+
+/* تصميم Vulnerability Assessment Tools */
+.vulnerability {
+  background-color: #3498db;
+}
+
+/* تصميم يتماشى مع جميع الشاشات */
+@media (max-width: 768px) {
+  .tool-list {
+      margin: 100px 20px 0;
+  }
+  header h1 {
+      font-size: 18px;
+  }
+  .icon {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 16px;
+  }
+  .icon {
+      font-size: 18px;
+  }
+  .icon-img {
+      width: 40px;
+      height: 40px;
+  }
+}
